@@ -108,7 +108,7 @@ body {
 }
 
 .hero-image::before {
-  margin-left: 50%;
+  margin-left: 47%;
   position: absolute;
   content: "";
   top: 24px;
