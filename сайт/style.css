@@ -108,10 +108,11 @@ body {
 }
 
 .hero-image::before {
+  margin-left: 50%;
   position: absolute;
   content: "";
   top: 24px;
-  left: calc(50vw - 25px);
+  
   width: 800px;
   height: 800px;
   background-image: url("img/devservicespoints2.png");
@@ -186,11 +187,6 @@ body {
   margin: 0;
 }
 
-.user-image img {
-  width: 640px;
-  height: 640px;
-  object-fit: cover;
-}
 
 .intro .container div {
   margin-left: 720px;
@@ -218,13 +214,11 @@ li {
   margin-left: 80px;
 }
 
-
 .portfolio {
   margin-bottom: 185px;
   padding-bottom: 0;
   padding-top: 80px;
 }
-
 
 .page-footer {
   padding: 40px 0;
